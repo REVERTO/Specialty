@@ -4,4 +4,6 @@
 # Examples:
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+#   Mayor.create(name: 'Emanuel', city: cities.first)¥
+Product.create(name: 'りんご', local: Local.create(name: '世田谷'))
+Product.create(name: 'みかん', local: Local.create(name: '杉並'))
