@@ -20,7 +20,8 @@ class Products_API < Grape::API
     end
     # http://localhost:3000/api/v1/products/{:id}
     get ':id' do
-      Product.find(params[:id])
+      # Product.find(params[:id])
+        Product.where(local_id: params[:id])
     end
   end
 end
